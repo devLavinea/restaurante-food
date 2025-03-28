@@ -78,8 +78,8 @@
 
 @media screen and (min-width: 800px) {
   #home {
-    min-height: 70vh;
-    padding-top: 0px;
+    max-height: 70vh;
+    
   }
 }
 
