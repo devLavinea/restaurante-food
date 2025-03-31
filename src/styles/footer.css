@@ -15,9 +15,19 @@ footer{
     font-weight: 500;
 }
 
-@media screen and (max-width: 600px) {
-    #footer-items{
-        flex-direction: column;
-        gap:20px;
-    }
+@media screen and (max-width: 499px) {
+
+.social-media-buttons{
+    gap:0px;
+    width:55%;
+}
+#footer_items{
+  
+    padding: 0px 6% 24px 6%;
+   
+}
+
+
+
+
 }

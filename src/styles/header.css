@@ -46,8 +46,7 @@ header{
     display: none;
 }
 
-
-@media screen and (max-width: 1170px) { 
+@media  (max-width: 1700px) {
 
     #nav_list,
     #navbar .btn-default {
@@ -58,7 +57,7 @@ header{
         display: block;
         border: none;
         background-color: transparent;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         cursor: pointer;
     }
 
@@ -82,4 +81,11 @@ header{
         list-style: none;
         text-align: center;
     }
+    #nav_logo{
+        font-size: 30px;
+        
+    
+    }
 }
+
+

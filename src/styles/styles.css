@@ -37,6 +37,10 @@ section{
     padding: 28px 8%;
 }
 
+#content{
+    height:auto;
+}
+
 .btn-default{
     border: none;
     display: flex;
