@@ -1,422 +1,418 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/src/images/favicon.png" type="image/png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./src/styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/src/images/favicon.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/styles/styles.css" />
 
     <title>Landing Page</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <i class="fa-solid fa-burger" id="nav_logo"> food</i>
 
-    <header >
-        <nav id="navbar">
+        <ul id="nav_list">
+          <li class="nav-item active">
+            <a href="#home"> Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu"> Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials"> Avaliações </a>
+          </li>
+        </ul>
 
-            <i class="fa-solid fa-burger" id="nav_logo"> food</i>
+        <button class="btn-default">Peça aqui</button>
 
-            <ul id="nav_list">
-                <li class="nav-item active">
-                    <a href="#home"> Início</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#menu"> Cardápio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#testimonials"> Avaliações </a>
-                </li>
-            </ul>
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
 
-            <button class="btn-default">
-                Peça aqui
-            </button>
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home"> Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu"> Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials"> Avaliações </a>
+          </li>
+        </ul>
 
-            <button id="mobile_btn">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-        </nav>
-
-        <div id="mobile_menu">
-            <ul id="mobile_nav_list">
-                <li class="nav-item">
-                    <a href="#home"> Início</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#menu"> Cardápio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#testimonials"> Avaliações </a>
-                </li>
-            </ul>
-
-            <button class="btn-default">
-                Peça aqui
-            </button>
-        </div>
-
+        <button class="btn-default">Peça aqui</button>
+      </div>
     </header>
 
     <main id="content">
-        <section id="home">
-            <!--  forma que fica abaixo das imagens dos pratos -->
-            <div class="shape">
+      <section id="home">
+        <!--  forma que fica abaixo das imagens dos pratos -->
+        <div class="shape"></div>
+        <!---->
 
+        <div id="cta">
+          <h1 class="title">
+            O sabor que vai até
+            <span>você</span>
+          </h1>
+          <p class="description">
+            Nosso restaurante oferece uma experiência gastronômica única, com
+            pratos que unem tradição e inovação. Em um ambiente acolhedor,
+            servimos receitas autênticas e exclusivas. Venha desfrutar de
+            momentos especiais e sabores inesquecíveis conosco!
+          </p>
+          <div id="cta_buttons">
+            <a href="" id="phone_button">
+              <button class="btn-default">
+                <i class="fa-solid fa-phone"></i>
+              </button>
+              (00) 0 0000-0000
+            </a>
+          </div>
+
+          <div class="social-media-buttons">
+            <a href="">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+
+        <div id="banner">
+          <img src="src/images/hero.png" alt="" />
+        </div>
+      </section>
+
+      <section id="menu">
+        <h2 class="section-title">Cardápio</h2>
+        <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+        <div id="dishes">
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
             </div>
-            <!---->
 
+            <img src="src/images/dish.png" class="dish-image" alt="" />
 
-            <div id="cta">
-                <h1 class="title">
-                    O sabor que vai até 
-                    <span>você</span>
-                </h1>
-                <p class="description">
-                    Nosso restaurante oferece uma experiência gastronômica única, 
-                    com pratos que unem tradição e inovação. Em um ambiente acolhedor, servimos receitas autênticas e exclusivas.
-                     Venha desfrutar de momentos especiais e sabores inesquecíveis conosco!
+            <h3 class="dish-title">Poke Bowl</h3>
+
+            <span class="dish-description">
+              uma explosão de sabores frescos!
+            </span>
+
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+
+            <div class="dish-price">
+              <h4>R$46,00</h4>
+            </div>
+          </div>
+
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="src/images/dish2.png" class="dish-image" alt="" />
+
+            <h3 class="dish-title">Chicken sandwich</h3>
+
+            <span class="dish-description"> Delicioso e cheio de sabor! </span>
+
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+
+            <div class="dish-price">
+              <h4>R$20,00</h4>
+            </div>
+          </div>
+
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="src/images/dish3.png" class="dish-image" alt="" />
+
+            <h3 class="dish-title">Fruit salad</h3>
+
+            <span class="dish-description">
+              Uma mistura fresca e saborosa!
+            </span>
+
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+
+            <div class="dish-price">
+              <h4>R$29,00</h4>
+            </div>
+          </div>
+
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="src/images/dish4.png" class="dish-image" alt="" />
+
+            <h3 class="dish-title">Yakisoba</h3>
+
+            <span class="dish-description">
+              Macarrão frito com sabor único!
+            </span>
+
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+
+            <div class="dish-price">
+              <h4>R$45,00</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials">
+        <div id="testimonials_content">
+          <h2 class="section-title">Depoimentos</h2>
+          <h3 class="section-subtitle">Oque os clientes falam sobre nós</h3>
+
+          <div id="feedbacks">
+            <div class="feedback">
+              <img
+                src="src/images/pessoa2.jpg"
+                alt=""
+                class="feedback-avatar"
+              />
+
+              <div class="feedback-content">
+                <p>
+                  <strong>Ricardo Nogueira</strong>
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
                 </p>
-                <div id="cta_buttons">
-                   
-
-                    <a href="" id="phone_button">
-                        <button class="btn-default">
-                            <i class="fa-solid fa-phone"></i>  
-                        </button>
-                        (00) 0 0000-0000
-                    </a>
-                </div>
-
-                <div class="social-media-buttons">
-                    <a href="">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-
-                    <a href="">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-
-                    <a href="">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                </div>
+                <p>
+                  "Excelente experiência! O ambiente é acolhedor, o atendimento
+                  é impecável e os pratos são deliciosos."
+                </p>
+              </div>
             </div>
 
-            <div id="banner">
+            <div class="feedback">
+              <img
+                src="src/images/pessoa1.jpeg"
+                alt=""
+                class="feedback-avatar"
+              />
 
-                <img src="src/images/hero.png" alt="">
-
-            </div>
-        </section>
-
-        <section id="menu">
-            <h2 class="section-title">Cardápio</h2>
-            <h3 class="section-subtitle">Nossos pratos especiais</h3>
-        
-            <div id="dishes">
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/dish.png" class="dish-image" alt="">
-                    
-                    <h3 class="dish-title">
-                        Poke Bowl
-                    </h3>
-
-                    <span class="dish-description">
-                        uma explosão de sabores frescos!
-                    </span>
-                  
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-                   
-                    <div class="dish-price">
-                        <h4>R$46,00</h4>
-                       
-                    </div>
-                </div>
-            
-
-            
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/dish2.png" class="dish-image" alt="">
-                    
-                    <h3 class="dish-title">
-                        Chicken sandwich
-                    </h3>
-
-                    <span class="dish-description">
-                        Delicioso e cheio de sabor!
-                    </span>
-                   
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-                  
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                       
-                    </div>
-                </div>
-           
-
-           
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/dish3.png" class="dish-image" alt="">
-                    
-                    <h3 class="dish-title">
-                        Fruit salad
-                    </h3>
-
-                    <span class="dish-description">
-                        Uma mistura fresca e saborosa!
-                    </span>
-                  
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-               
-                    <div class="dish-price">
-                        <h4>R$29,00</h4>
-                       
-                    </div>
-                </div>
-          
-
-         
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/dish4.png" class="dish-image" alt="">
-                    
-                    <h3 class="dish-title">
-                        Yakisoba
-                    </h3>
-
-                    <span class="dish-description">
-                        Macarrão frito com sabor único!
-                    </span>
-                
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-                
-                    <div class="dish-price">
-                        <h4>R$45,00</h4>
-                       
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="testimonials">
-           
-            <div id="testimonials_content">
-                <h2 class="section-title">
-                    Depoimentos
-                </h2>
-                <h3 class="section-subtitle">
-                    Oque os clientes falam sobre nós
-                </h3>
-
-                <div id="feedbacks">
-                    <div class="feedback">
-                        
-                        <img src="src/images/pessoa2.jpg" alt="" class="feedback-avatar">
-                       
-                        
-                        <div class="feedback-content">
-                            <p >
-                                <strong>Ricardo Nogueira</strong> 
-                                <span>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                            </p>
-                            <p>
-                                "Excelente experiência! O ambiente é acolhedor, o atendimento é impecável e 
-                                os pratos são deliciosos."
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="feedback">
-                        <img src="src/images/pessoa1.jpeg" alt="" class="feedback-avatar">
-                        
-                        <div class="feedback-content">
-                            <p>
-                             <strong> Carroline Carvalho</strong>  
-                                <span>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                            </p>
-                            <p>
-                                "A combinação de sabores e a qualidade dos ingredientes fazem deste restaurante
-                                  uma excelente escolha para uma refeição especial!"
-                            </p>
-                        </div>
-                    </div>
-
-                    <div id="ocult">
-                        <div class="feedback">
-                            <img src="src/images/pessoa3.jpg" alt="" class="feedback-avatar">
-                            
-                            <div class="feedback-content">
-                                <p>
-                                 <strong> Beatriz Almeida</strong>  
-                                    <span>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </span>
-                                </p>
-                                <p>
-                                    "Ambiente agradável, atendimento atencioso e pratos saborosos que surpreendem."
-                                </p>
-                            </div>
-                        </div>
-                        <div class="feedback">
-                            <img src="src/images/pessoa4.jpg" alt="" class="feedback-avatar">
-                            
-                            <div class="feedback-content">
-                                <p>
-                                 <strong> Rafael Oliveira</strong>  
-                                    <span>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </span>
-                                </p>
-                                <p>
-                                    "Ótima experiência! O atendimento foi impecável e o filé mignon estava perfeito. Voltarei com certeza!"
-                                </p>
-                            </div>
-                        </div>
-                        <div class="feedback">
-                            <img src="src/images/pessoa5.jpg" alt="" class="feedback-avatar">
-                            
-                            <div class="feedback-content">
-                                <p>
-                                 <strong> Bianca Congo</strong>  
-                                    <span>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </span>
-                                </p>
-                                <p>
-                                    "Adorei! O restaurante tem uma atmosfera excelente e a sobremesa foi de outro mundo. Super recomendo!"
-                                </p>
-                            </div>
-                        </div>
-                        <div class="feedback">
-                            <img src="src/images/pessoa6.jpg" alt="" class="feedback-avatar">
-                            
-                            <div class="feedback-content">
-                                <p>
-                                 <strong> Lara Souza</strong>  
-                                    <span>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </span>
-                                </p>
-                                <p>
-                                    "Ambiente maravilhoso e comida deliciosa! O risoto de camarão estava incrível. Recomendo demais!"
-                                </p>
-                            </div>
-                        </div>
-
-                      
-
-                    </div>
-                </div>
-
-                <button id="btn_ocult" onclick="toggleAvaliacoes()" class="btn-default">
-                    Ver mais avaliações...
-                </button>
+              <div class="feedback-content">
+                <p>
+                  <strong> Carroline Carvalho</strong>
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </p>
+                <p>
+                  "A combinação de sabores e a qualidade dos ingredientes fazem
+                  deste restaurante uma excelente escolha para uma refeição
+                  especial!"
+                </p>
+              </div>
             </div>
 
-        </section>
+            <div id="ocult">
+              <div class="feedback">
+                <img
+                  src="src/images/pessoa3.jpg"
+                  alt=""
+                  class="feedback-avatar"
+                />
 
+                <div class="feedback-content">
+                  <p>
+                    <strong> Beatriz Almeida</strong>
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </p>
+                  <p>
+                    "Ambiente agradável, atendimento atencioso e pratos
+                    saborosos que surpreendem."
+                  </p>
+                </div>
+              </div>
+              <div class="feedback">
+                <img
+                  src="src/images/pessoa4.jpg"
+                  alt=""
+                  class="feedback-avatar"
+                />
+
+                <div class="feedback-content">
+                  <p>
+                    <strong> Rafael Oliveira</strong>
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </p>
+                  <p>
+                    "Ótima experiência! O atendimento foi impecável e o filé
+                    mignon estava perfeito. Voltarei com certeza!"
+                  </p>
+                </div>
+              </div>
+              <div class="feedback">
+                <img
+                  src="src/images/pessoa5.jpg"
+                  alt=""
+                  class="feedback-avatar"
+                />
+
+                <div class="feedback-content">
+                  <p>
+                    <strong> Bianca Congo</strong>
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </p>
+                  <p>
+                    "Adorei! O restaurante tem uma atmosfera excelente e a
+                    sobremesa foi de outro mundo. Super recomendo!"
+                  </p>
+                </div>
+              </div>
+              <div class="feedback">
+                <img
+                  src="src/images/pessoa6.jpg"
+                  alt=""
+                  class="feedback-avatar"
+                />
+
+                <div class="feedback-content">
+                  <p>
+                    <strong> Lara Souza</strong>
+                    <span>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </p>
+                  <p>
+                    "Ambiente maravilhoso e comida deliciosa! O risoto de
+                    camarão estava incrível. Recomendo demais!"
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            id="btn_ocult"
+            onclick="toggleAvaliacoes()"
+            class="btn-default"
+          >
+            Ver mais avaliações...
+          </button>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <img src="src/images/wave.svg" alt="">
+      <img src="src/images/wave.svg" alt="" />
 
-        <div id="footer_items">
-            <span id="copyright">
-                &copy 2025 Lavinea Souza
-            </span>
+      <div id="footer_items">
+        <span id="copyright"> &copy 2025 Lavinea Souza </span>
 
-            <div class="social-media-buttons">
-                <a href="">
-                    <i class="fa-brands fa-whatsapp"></i>
-                </a>
+        <div class="social-media-buttons">
+          <a href="">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
 
-                <a href="">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
+          <a href="">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
 
-                <a href="">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-            </div>
+          <a href="">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
         </div>
-
+      </div>
     </footer>
 
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
     <script src="https://unpkg.com/scrollreveal" defer></script>
     <script src="./src/javascript/script.js" defer></script>
-</body>
+  </body>
 </html>

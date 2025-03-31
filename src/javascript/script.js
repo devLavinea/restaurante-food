@@ -45,8 +45,6 @@ $(document).ready(function () {
     distance: "20%",
   });
 
- 
-
   ScrollReveal().reveal("", {
     origin: "right",
     duration: 1000,
@@ -54,16 +52,15 @@ $(document).ready(function () {
   });
 });
 function toggleAvaliacoes() {
-    const ocult = document.getElementById("ocult");
-    const btnOcult = document.getElementById("btn_ocult");
-  
-    // Verificando o valor de display do elemento oculto
-    if (ocult.style.display === "none" || ocult.style.display === "") {
-        ocult.style.display = "flex";
-        btnOcult.innerText = "Ver menos..."; // Mudar texto do botão
-    } else {
-        ocult.style.display = "none";
-        btnOcult.innerText = "Ver mais avaliações..."; // Voltar o texto para "Ver mais"
-    }
-}
+  const ocult = document.getElementById("ocult");
+  const btnOcult = document.getElementById("btn_ocult");
 
+  // Verificando o valor de display do elemento oculto
+  if (ocult.style.display === "none" || ocult.style.display === "") {
+    ocult.style.display = "flex";
+    btnOcult.innerText = "Ver menos..."; // Mudar texto do botão
+  } else {
+    ocult.style.display = "none";
+    btnOcult.innerText = "Ver mais avaliações..."; // Voltar o texto para "Ver mais"
+  }
+}

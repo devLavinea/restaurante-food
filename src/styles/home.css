@@ -80,8 +80,8 @@
 @media screen and (max-width: 499px) {
   #home {
     height: auto; /* Pode ajustar conforme necessário */
-  align-items:start;
-  padding:30px 15px;
+    align-items: start;
+    padding: 30px 15px;
   }
 
   #cta {
@@ -98,21 +98,17 @@
   }
 
   #cta .title {
-    line-height:5rem;
+    line-height: 5rem;
   }
-
-  
 }
 
 /* Ajustes para tablets */
 @media (min-width: 500px) and (max-width: 900px) {
   #home {
-    padding:40px 50px; 
-    
- 
+    padding: 40px 50px;
   }
   #cta .title {
-    line-height:5rem;
+    line-height: 5rem;
   }
 
   #cta {
@@ -127,7 +123,4 @@
   #home .shape {
     display: none;
   }
-
-  
 }
-
