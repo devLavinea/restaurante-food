@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 footer{
     background-color: var(--color-primary-2);
 }
@@ -30,4 +31,28 @@ footer{
 
 
 
+=======
+footer{
+    background-color: var(--color-primary-2);
+}
+
+#footer_items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items:center ;
+}
+
+#copyrigth{
+
+    color: var(--color-neutral-1);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    #footer-items{
+        flex-direction: column;
+        gap:20px;
+    }
+>>>>>>> d6d4668063faf302aa3a78c3e5f004fcf1d4edeb
 }
