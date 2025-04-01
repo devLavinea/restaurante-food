@@ -44,6 +44,7 @@ $(document).ready(function () {
     duration: 2000,
     distance: "20%",
   });
+  
 
   ScrollReveal().reveal("", {
     origin: "right",
