@@ -74,7 +74,7 @@ Aqui estão algumas capturas de tela do projeto em funcionamento:
 
 ### Versão Desktop
 
-<img src="src/images/desktop.png" alt="Versão Desktop" width="400"/>
+<img src="src/images/desktop.png" alt="Versão Desktop" width="600"/>
 
 ### Versão Tablet
 
@@ -82,7 +82,7 @@ Aqui estão algumas capturas de tela do projeto em funcionamento:
 
 ### Versão Mobile
 
-<img src="src/images/mobile.png" alt="Versão Mobile" width="400"/>
+<img src="src/images/mobile.png" alt="Versão Mobile" width="300"/>
 
 ---
 
