@@ -1,62 +1,59 @@
 # Restaurante Food - Landing Page
 
-Olá! Eu sou a desenvolvedora responsável pela criação da **landing page do Restaurante Food**. Este projeto foi desenvolvido para apresentar de forma simples e eficaz as informações sobre o restaurante, como o cardápio, promoções e dados de contato. A página foi construída utilizando **HTML**, **CSS** e **JavaScript**.
+**Desenvolvedora Front-End | HTML, CSS, JavaScript**
 
-## Índice
+Este projeto consiste na criação de uma **landing page** para o **Restaurante Food**. A página foi desenvolvida com o objetivo de fornecer uma experiência de usuário intuitiva, com design responsivo e funcionalidades interativas. Utilizando **HTML**, **CSS** e **JavaScript**, o projeto visa otimizar a navegação e garantir que os usuários encontrem rapidamente as informações sobre o restaurante, como cardápio, promoções e dados de contato.
 
-- [Descrição](#descrição)
-- [Objetivo do Projeto](#objetivo-do-projeto)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Como Rodar o Projeto](#como-rodar-o-projeto)
-- [Recursos e Funcionalidades](#recursos-e-funcionalidades)
-- [Contribuições](#contribuições)
-- [Licença](#licença)
-- [Contato](#contato)
-- [Imagens](#imagens)
+## Visite o Site
 
-## Descrição
+Confira o projeto ao vivo acessando o link abaixo:
 
-Este projeto consiste na **landing page** do **Restaurante Food**, que foi desenvolvida com o objetivo de fornecer uma maneira rápida e fácil para os clientes conhecerem o restaurante, seu cardápio e informações essenciais, como localização e formas de contato.
+[Visite o Restaurante Food](https://restaurantefood.vercel.app/)
 
-## Objetivo do Projeto
+## Sobre o Projeto
 
-O objetivo principal desta página é:
+A landing page foi desenvolvida para apresentar as informações do restaurante de forma clara e envolvente. As principais funcionalidades incluem:
 
-- Fornecer uma visão clara e direta sobre o restaurante.
-- Apresentar o cardápio e opções de pratos.
-- Facilitar a navegação para informações essenciais, como reservas, localização e dados de contato.
-- Garantir que a página seja responsiva, ou seja, adaptável a diferentes dispositivos.
+- **Cardápio interativo**: Apresentação de pratos e categorias de forma organizada e atraente.
+- **Promoções em destaque**: Exibição de ofertas especiais para atrair a atenção dos usuários.
+- **Formulário de contato**: Facilitação da comunicação com os clientes, com um formulário para enviar dúvidas ou realizar reservas.
+- **Design Responsivo**: Garantia de que a página seja exibida corretamente em diversos dispositivos (desktop, tablet e celular).
 
 ## Tecnologias Utilizadas
 
-- **HTML5**: Para a estruturação da página.
-- **CSS3**: Para a estilização da página e garantir uma boa experiência visual.
-- **JavaScript**: Para funcionalidades interativas, como animações suaves e interações no menu.
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- **HTML5**: Estruturação do conteúdo e semântica adequada para SEO.
+- **CSS3**: Estilização da página, com foco em layout responsivo e experiência visual.
+- **JavaScript**: Funcionalidades interativas, como animações de transição suave e interações no menu.
+- **Vercel**: Plataforma de hospedagem para garantir desempenho e acessibilidade.
 
 ## Como Rodar o Projeto
+
+Para executar o projeto localmente, siga os passos abaixo:
 
 1. **Clone o repositório**:
     ```bash
     git clone https://github.com/devLavinea/restaurante-food.git
     ```
 
-2. **Abra o arquivo `index.html` no seu navegador**:
-    O projeto é estático, ou seja, não há necessidade de configuração de servidor ou dependências extras. Basta abrir o arquivo `index.html` no seu navegador de preferência.
+2. **Abra o arquivo `index.html`** no seu navegador.  
+   O projeto é estático, então não há necessidade de configuração adicional.
 
-## Recursos e Funcionalidades
+## Funcionalidades
 
-- **Design Responsivo**: A página foi construída para ser visualmente adaptável em diferentes dispositivos (desktop, tablet, celular).
-- **Menu Interativo**: Uma seção com o cardápio, que inclui animações de hover para destacar cada item.
-- **Animações e Efeitos**: Utilização de JavaScript para animações simples, como transições suaves ao rolar a página.
-- **Links para Redes Sociais**: Conectando o restaurante aos seus perfis em redes sociais (Instagram, Facebook, etc.).
+- **Design Responsivo**: A página se adapta automaticamente a diferentes tamanhos de tela utilizando **media queries** e unidades relativas, garantindo uma boa experiência em dispositivos móveis e desktop.
+- **Animações com JavaScript**: Animações de transição suave para melhorar a navegação e interatividade na página.
+- **Estruturação para SEO**: O HTML foi otimizado para melhorar o desempenho nos motores de busca, incluindo o uso de tags semânticas e meta tags.
+- **Links para Redes Sociais**: A página inclui links rápidos para redes sociais do restaurante, conectando diretamente com o público.
 
-## Contribuições
+## Como Contribuir
 
-Se você deseja contribuir com melhorias ou adições ao projeto, siga os seguintes passos:
+Se você quiser colaborar ou sugerir melhorias para o projeto, fique à vontade para seguir os passos abaixo:
 
 1. Faça um fork deste repositório.
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`).
-3. Realize suas alterações e faça commit (`git commit -am 'Adicionando nova feature'`).
+2. Crie uma nova branch para sua feature (`git checkout -b feature/nova-feature`).
+3. Faça suas alterações e commit (`git commit -am 'Adicionando nova feature'`).
 4. Envie suas mudanças para o repositório remoto (`git push origin feature/nova-feature`).
 5. Abra um pull request para revisão.
 
@@ -68,7 +65,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 Caso tenha dúvidas ou sugestões sobre o projeto, pode me encontrar nas seguintes plataformas:
 
-- **Email**: contato@seuemail.com
+- **Email**: lavinea2411@gmail.com
 - **GitHub**: [devLavinea](https://github.com/devLavinea)
 
 ## Imagens
@@ -77,15 +74,15 @@ Aqui estão algumas capturas de tela do projeto em funcionamento:
 
 ### Versão Desktop
 
-![Página Inicial](src/images/desktop.png)
+![Versão Desktop](src/images/desktop.png)
 
-### Versão Tablet
+### Versão tablet
 
-![Cardápio](src/images/tablet.png)
+![Versão tablet](src/images/tablet.png)
 
 ### Versão Mobile
 
-![Formulário de Contato](src/images/mobile.png)
+![Versão Mobile](src/images/mobile.png)
 
 ---
 
