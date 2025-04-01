@@ -74,15 +74,15 @@ Aqui estão algumas capturas de tela do projeto em funcionamento:
 
 ### Versão Desktop
 
-![Versão Desktop](src/images/desktop.png)
+<img src="src/images/desktop.png" alt="Versão Desktop" width="400"/>
 
-### Versão tablet
+### Versão Tablet
 
-![Versão tablet](src/images/tablet.png)
+<img src="src/images/tablet.png" alt="Versão Tablet" width="400"/>
 
 ### Versão Mobile
 
-![Versão Mobile](src/images/mobile.png)
+<img src="src/images/mobile.png" alt="Versão Mobile" width="400"/>
 
 ---
 
