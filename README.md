@@ -1,5 +1,7 @@
 # Restaurante Food - Landing Page
 
+<img src="src/images/restaurantefood.png" alt="Restaurante Food - Landing Page" />
+
 **Desenvolvedora Front-End | HTML, CSS, JavaScript**
 
 Este projeto consiste na criação de uma **landing page** para o **Restaurante Food**. A página foi desenvolvida com o objetivo de fornecer uma experiência de usuário intuitiva, com design responsivo e funcionalidades interativas. Utilizando **HTML**, **CSS** e **JavaScript**, o projeto visa otimizar a navegação e garantir que os usuários encontrem rapidamente as informações sobre o restaurante, como cardápio, promoções e dados de contato.
